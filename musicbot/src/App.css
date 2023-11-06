@@ -3,3 +3,8 @@
   height: 15vh;
   background-color: black;
 }
+
+.main-content {
+  /* Your styles for the main content */
+  width: 100%; /* Set the width as needed */
+}
