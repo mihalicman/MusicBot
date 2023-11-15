@@ -1,0 +1,86 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.name {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+  
+.tabs-container {
+    width: 200px;
+    color: #fff;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+  
+.tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.tab-label {
+    text-transform: uppercase;
+}
+  
+.main-content {
+    background-color: rgb(42, 0, 42);
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+  
+.section-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+  
+.music-player-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.music-player-title {
+    margin-bottom: 10px;
+}
+  
+.player-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.slider {
+    width: 100%;
+    margin-top: 10px;
+}
+  
+.custom-tabs .MuiTabs-flexContainer {
+    flex-direction: column !important; 
+}
+
+.section-container .MuiListItem-root {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.section-container img {
+    margin-right: 10px; 
+}

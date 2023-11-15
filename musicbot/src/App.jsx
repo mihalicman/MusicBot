@@ -7,6 +7,8 @@ import Goals from './components/Goals'
 import About from './components/About'
 import Registration from './components/Registration'
 import './App.css'
+import Login from "./components/Login";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/register" element={<Registration />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
+          <Route path="/dash" element={<Dashboard />} />
         </Routes>
       </Router>
     </div>
